@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LAST STAND - Roguelike</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="hud">
+    <h1>LAST STAND</h1>
+    <div>WAVE <span id="wave">1</span></div>
+    <div>LEVEL <span id="level">1</span></div>
+    <div>HEALTH <span id="health">100</span></div>
+    <div>XP <span id="xp">0</span></div>
+    <div id="weapon">WEAPON: PISTOL</div>
+    <div id="enemies">ENEMIES: 0</div>
+  </div>
+
+  <div id="crosshair">+</div>
+
+  <div id="overlay">
+    <h1 id="overlayTitle">LAST STAND</h1>
+    <p id="overlayText">Survive. Upgrade. Destroy.</p>
+    <div id="choices"></div>
+    <button id="startButton">START GAME</button>
+  </div>
+
+  <div id="instructions">
+    WASD: Move | SPACE: Dash | Mouse: Aim | Click: Shoot
+  </div>
+
+  <script type="module" src="game.js"></script>
+</body>
+</html>
